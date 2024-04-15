@@ -9,13 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
     @GetMapping("/hello")
     public String sayHello() {
-        return "hello-world-from-package-views";
+        return "world/hello-world-from-package-views";
     }
 
-    @GetMapping("/hello-user")
-    public String sayHelloUser(Model model) {
-        String userName = "Ivan Pupkin";
-        model.addAttribute("userName", userName);
-        return "hello-user";
-    }
+
+
+
 }

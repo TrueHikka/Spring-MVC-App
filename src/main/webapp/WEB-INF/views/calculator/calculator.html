@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Calculator</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+
+<body>
+
+<div th:class="${resultClass}">
+    Result <span th:text="${action} + ':'"></span>
+    <span th:text="${result}"></span>
+    <span th:if="${error}" th:text="${error}"></span>
+</div>
+
+</body>
+</html>

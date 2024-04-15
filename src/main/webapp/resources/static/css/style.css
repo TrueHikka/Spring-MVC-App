@@ -4,3 +4,48 @@
     color: dodgerblue;
     text-align: center;
 }
+
+.result-add {
+    color: #87CEEB; /* lightskyblue */
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+
+.result-subtract {
+    color: #FFB6C1; /* pink */
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: max-content;
+    margin: auto;
+}
+
+.result-multiply {
+    color: #FFA07A; /* lightcoral */
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    width: max-content;
+    margin: auto;
+}
+
+.result-divide {
+    color: #FFD700; /* gold */
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: max-content;
+    margin: auto;
+}
